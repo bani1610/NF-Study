@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test-tailwind', function () {
-    return view('test-tailwind');
+Route::get('/halaman', function () {
+    return view('halaman');
 });
