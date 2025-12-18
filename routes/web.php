@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfilController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,6 @@ Route::get('/', function () {
 Route::get('/test-tailwind', function () {
     return view('test-tailwind');
 });
+
+Route::get('/profil', [ProfilController::class, 'index'])->name('profil');
+Route::post('/profil/update', [ProfilController::class, 'update'])->name('profil.update');
