@@ -67,7 +67,7 @@
 
         <!-- Main Content -->
         <div class="flex flex-col flex-1 w-full overflow-hidden bg-[#ebf0f5]">
-            <header class="sticky top-0 left-0 w-full z-50 py-4 bg-white transition-all duration-300 border-b border-slate-200/50 support-[backdrop-filter]:bg-white/50">
+            <header class="sticky top-0 left-0 w-full z-50 py-4 bg-white transition-all duration-300 border-b border-slate-200/50 supports-[backdrop-filter]:bg-white/50">
                 <div class="container flex items-center justify-between h-full px-8 mx-auto">
                     <div class="flex items-center justify-center flex-1">
                         <div class="relative w-full max-w-md focus-within:text-[#4B9DA9]">
