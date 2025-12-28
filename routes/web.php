@@ -21,5 +21,5 @@ Route::get("/test-tailwind", function () {
 });
 
 Route::get("/profile", function () {
-    return view("profil");
+    return view("profile");
 });
