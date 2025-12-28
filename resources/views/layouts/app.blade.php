@@ -37,18 +37,21 @@
                         <svg class="w-5 h-5 {{ request()->is('dashboard') ? 'text-white' : 'opacity-70 group-hover:opacity-100' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
                         <span class="ml-4 tracking-wide">Dashboard</span>
                     </a>
-                    <a class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50 hover:text-white hover:bg-black/5 rounded-2xl transition-all group" href="#">
-                        <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <div class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50/40 rounded-2xl opacity-50 cursor-not-allowed" role="link" aria-disabled="true" aria-label="Jadwal Kuliah (Coming Soon)">
+                        <svg class="w-5 h-5 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                         <span class="ml-4 tracking-wide">Jadwal Kuliah</span>
-                    </a>
-                    <a class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50 hover:text-white hover:bg-black/5 rounded-2xl transition-all group" href="#">
-                        <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 002 2v6a2 2 0 002 2h2m2 4h10a2 2 0 00-2-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <span class="ml-auto text-[10px] text-teal-50/60 bg-teal-900/20 px-2 py-0.5 rounded-full">Soon</span>
+                    </div>
+                    <div class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50/40 rounded-2xl opacity-50 cursor-not-allowed" role="link" aria-disabled="true" aria-label="Pembayaran UKT (Coming Soon)">
+                        <svg class="w-5 h-5 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 002 2v6a2 2 0 002 2h2m2 4h10a2 2 0 00-2-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         <span class="ml-4 tracking-wide">Pembayaran UKT</span>
-                    </a>
-                    <a class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50 hover:text-white hover:bg-black/5 rounded-2xl transition-all group" href="#">
-                        <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>        
+                        <span class="ml-auto text-[10px] text-teal-50/60 bg-teal-900/20 px-2 py-0.5 rounded-full">Soon</span>
+                    </div>
+                    <div class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50/40 rounded-2xl opacity-50 cursor-not-allowed" role="link" aria-disabled="true" aria-label="Pesan & Diskusi (Coming Soon)">
+                        <svg class="w-5 h-5 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>        
                         <span class="ml-4 tracking-wide">Pesan & Diskusi</span>
-                    </a>
+                        <span class="ml-auto text-[10px] text-teal-50/60 bg-teal-900/20 px-2 py-0.5 rounded-full">Soon</span>
+                    </div>
                      <a class="flex items-center px-4 py-3.5 text-sm font-bold rounded-2xl transition-all {{ request()->is('profile') ? 'text-white bg-white/20 shadow-sm border border-white/10' : 'text-teal-50 hover:text-white hover:bg-black/5' }}" href="/profile">
                         <svg class="w-5 h-5 {{ request()->is('profile') ? 'text-white' : 'opacity-70 group-hover:opacity-100' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
                         <span class="ml-4 tracking-wide">Profil Saya</span>
