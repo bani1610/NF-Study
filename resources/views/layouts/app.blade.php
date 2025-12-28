@@ -42,7 +42,7 @@
                         <span class="ml-4 tracking-wide">Jadwal Kuliah</span>
                     </a>
                     <a class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50 hover:text-white hover:bg-black/5 rounded-2xl transition-all group" href="#">
-                        <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 002 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 002 2v6a2 2 0 002 2h2m2 4h10a2 2 0 00-2-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         <span class="ml-4 tracking-wide">Pembayaran UKT</span>
                     </a>
                     <a class="flex items-center px-4 py-3.5 text-sm font-bold text-teal-50 hover:text-white hover:bg-black/5 rounded-2xl transition-all group" href="#">
