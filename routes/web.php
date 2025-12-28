@@ -20,6 +20,6 @@ Route::get("/test-tailwind", function () {
     return view("test-tailwind");
 });
 
-Route::get("/profile", function () {
-    return view("profile");
+Route::get("/profil", function () {
+    return view("profil");
 });
