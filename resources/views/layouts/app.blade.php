@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
-                        <div class="w-10 h-10 rounded-full bg-teal-50 border-2 border-[#4B9DA9]/20 flex items-center justify-center text-[#4B9DA9] font-bold shadow-sm">U</div>
+                        <div class="w-10 h-10 rounded-full bg-teal-50 border-2 border-[#4B9DA9]/20 flex items-center justify-center text-[#4B9DA9] font-bold shadow-sm" role="img" aria-label="User avatar">U</div>
                     </div>
                 </div>
             </header>
